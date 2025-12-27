@@ -2,6 +2,6 @@ django
 numpy
 pandas
 matplotlib
-opencv-contrib-python
+opencv-python-headless
 gunicorn
 whitenoise
