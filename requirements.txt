@@ -1,0 +1,7 @@
+django
+numpy
+pandas
+matplotlib
+opencv-contrib-python
+gunicorn
+whitenoise

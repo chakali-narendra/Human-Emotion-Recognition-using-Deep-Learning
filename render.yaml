@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: human-emotion-recognition
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn EGGHumanEmotion.wsgi:application"
+    plan: free
+    branch: main
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
